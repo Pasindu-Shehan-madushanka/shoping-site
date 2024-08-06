@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(14, 11, 11);
+    color: aliceblue;
+}
+
+#maindiv{
+    background-color: aquamarine;
+    size: 100%;
+    color: blueviolet;
+}
