@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart">
+            <div class="cart-item">
+                <img src="https://picsum.photos/50" alt="Product 1">
+                <p>Product 1</p>
+                <p>Quantity: 1</p>
+                <p>Price: $20.00</p>
+                <button class="btn" onclick="removeFromCart()">Remove</button>
+            </div>
+            <!-- Add more cart items as needed -->
+        </section>
+        <section class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Total: $20.00</p>
+            <a href="checkout.html" class="btn">Proceed to Checkout</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 New Shopping Site. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
